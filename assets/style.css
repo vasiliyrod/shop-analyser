@@ -1,0 +1,49 @@
+/* Стили для общего фона и шрифта */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для заголовков */
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #6c757d;
+    color: #ffffff;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-bottom: 2px solid #6c757d;
+    color: #343a40;
+}
+
+/* Стили для контейнера */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Стили для каждого графика */
+.graph {
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Стили для нижней части */
+.footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #868e96;
+    margin-top: 20px;
+}
