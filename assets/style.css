@@ -13,6 +13,7 @@ h1 {
     background-color: #007bff;
     color: #ffffff;
     margin: 0;
+    border-radius: 8px;
 }
 
 h2 {
@@ -28,6 +29,7 @@ h2 {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
+
 }
 
 /* Стили для каждого графика */
@@ -40,11 +42,16 @@ h2 {
 }
 
 .upload-data {
-    padding: 20px;
-    background: #e9ecef;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    text-align: center;
+    width: 100%,
+    height: 60px,
+    lineHeight: 60px,
+    borderWidth: 1px,
+    borderStyle: dashed,
+    borderRadius: 5px,
+    textAlign: center,
+    margin-top: 5px,
+    margin-bottom: 10px,
+    background-color: #e9ecef
 }
 
 /* Стили для нижней части */
