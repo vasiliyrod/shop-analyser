@@ -128,7 +128,7 @@ def update_output(contents, filename, date):
                 amount_fig,
                 generate_table(df1))
 
-    return html.Div(['Пожалуйста, загрузите файл.']), {}, {}, {}, {}
+    return html.Div(['Пожалуйста, загрузите файл.']), {}, {}, {}, {}, html.Div(['Нет данных для отображения'])
 
 
 def generate_table(dataframe, max_rows=10):
