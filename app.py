@@ -7,7 +7,9 @@ import io
 import datetime
 
 # Создание приложения Dash
-app = dash.Dash(__name__)
+app = dash.Dash(__name__, assets_folder='assets')
+
+server = app.server
 
 # Описание макета приложения
 app.layout = html.Div(className='container', children=[
@@ -118,4 +120,4 @@ def update_output(contents, filename, date):
 
 # Запуск приложения
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=True, port=5006)
